@@ -48,11 +48,28 @@
     width: 650px;
     height: 140px;
     outline: 2px dotted red;
+    display: flex;
+    justify-content: space-between;
 }
 
 img {
     height: 130px;
     border: 5px solid rgb(177, 177, 177);
+}
+
+#atitle {
+    color: white;
+    background-color: grey;
+    height: 25px;
+    padding-left: 10px;
+}
+
+#adesc {
+    background-color: rgb(197, 197, 197);
+}
+
+.nowrap {
+    display: inline-block;
 }
 
 #mainbot {
