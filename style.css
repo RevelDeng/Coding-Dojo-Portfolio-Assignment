@@ -1,15 +1,39 @@
 * {
     margin: 0px;
     padding: 0px;
-    outline: 1px dotted red;
 }
 
 #base {
+    margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    width: 700px;
 }
 
 #header {
-    background-color: grey;
-    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width: 700px;
+    flex: 2;
+}
+
+#name {
+    font-family: cursive;
+}
+
+#occupation {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main {
+    background-color: rgb(41, 22, 41);
+    width: 700px;
+    flex: 25;
+}
+
+#footer {
+    background-color: rgb(212, 212, 212);
+    width: 700px;
+    flex: 3;
 }
