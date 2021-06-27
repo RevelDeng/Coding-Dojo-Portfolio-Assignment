@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 1px dotted red;
+}
+
+#base {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background-color: grey;
+    display: inline-block;
+}
