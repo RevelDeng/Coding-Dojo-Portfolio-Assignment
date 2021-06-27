@@ -33,9 +33,9 @@
 }
 
 #main {
-    background-color: rgb(41, 22, 41);
     width: 700px;
     flex: 25;
+    background-image: radial-gradient(circle at center, grey, rgb(41, 22, 41));
 }
 
 #footer {
