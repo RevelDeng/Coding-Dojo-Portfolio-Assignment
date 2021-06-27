@@ -52,8 +52,9 @@
 
 #mainbot {
     margin: auto;
+    margin-top: 0px;
     width: 650px;
-    height: 350px;
+    height: 370px;
     outline: 2px dotted red;
 }
 
