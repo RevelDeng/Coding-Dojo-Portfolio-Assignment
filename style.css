@@ -121,10 +121,14 @@
 
 #lamodeimg {
     width: inherit;
+    margin-bottom: 8px;
+    float: right;
 }
 
 #lamode p {
-    padding: 8px 5.5px 40px;
+    padding-right: 5.5px;
+    padding-left: 5.5px;
+    padding-bottom: 40px;
     width: 94%;
     font-size: 10px;
 }
