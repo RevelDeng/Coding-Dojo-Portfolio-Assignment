@@ -47,7 +47,7 @@
     margin: auto;
     width: 650px;
     height: 170px;
-    outline: 2px dotted red;
+    /* outline: 2px dotted red; */
     display: flex;
     justify-content: space-between;
 }
@@ -57,7 +57,7 @@
     border: 3px solid rgb(177, 177, 177);
 }
 
-.label {                 /*fix gradient*/
+.label {
     color: white;
     height: 25px;
     padding-left: 6px;
@@ -109,11 +109,40 @@
     margin-top: 0px;
     width: 650px;
     height: 370px;
-    outline: 2px dotted red;
+    /* outline: 2px dotted red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#lamode {
+    width: 206px;
+    text-align: justify;
 }
 
 #lamodeimg {
-    width: 100%;
+    width: inherit;
+}
+
+#lamode p {
+    padding: 8px 5.5px 40px;
+    width: 94%;
+    font-size: 10px;
+}
+
+#contacts {
+    width: 206px;
+}
+
+#contactsimg {
+    width: inherit;
+}
+
+#sixteen {
+    width: 206px;
+}
+
+#sixtimg {
+    width: inherit;
 }
 
 #footer {
