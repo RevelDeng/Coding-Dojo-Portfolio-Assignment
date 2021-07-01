@@ -120,6 +120,7 @@
     width: 206px;
     text-align: justify;
     outline: 1px dotted red;
+    /* max-height: 360px; */
 }
 
 #lamodeimg {
@@ -155,10 +156,14 @@
     color: white;
     background-color: green;
     width: 40px;
-    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 5px;
     font-size: 10px;
-    padding: 5px 5px;
+    padding: 3px 3px;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
 }
 
 #contacts {
