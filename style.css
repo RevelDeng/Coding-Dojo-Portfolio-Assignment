@@ -109,7 +109,7 @@
     margin-top: 0px;
     width: 650px;
     height: 370px;
-    outline: 2px dotted red;
+    /* outline: 2px dotted red; */
     display: flex;
     justify-content: space-between;
 }
@@ -117,15 +117,15 @@
 #lamode {
     width: 206px;
     text-align: justify;
+    outline: 2px dotted red;
 }
 
 #lamodeimg {
-    width: inherit;
-    margin-bottom: 8px;
-    float: right;
+    width: 206px;
 }
 
 #lamode p {
+    padding-top: 3px;
     padding-right: 5.5px;
     padding-left: 5.5px;
     padding-bottom: 40px;
@@ -144,7 +144,7 @@
     margin-top: 5px;
 }
 
-#lamode div:nth-of-type(4) div{
+.button {
     color: white;
 }
 
