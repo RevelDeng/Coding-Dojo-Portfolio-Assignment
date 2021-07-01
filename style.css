@@ -47,7 +47,7 @@
     margin: auto;
     width: 650px;
     height: 170px;
-    /* outline: 2px dotted red; */
+    outline: 1px dotted red;
     display: flex;
     justify-content: space-between;
 }
@@ -109,7 +109,7 @@
     margin-top: 0px;
     width: 650px;
     height: 370px;
-    /* outline: 2px dotted red; */
+    outline: 1px dotted red;
     display: flex;
     justify-content: space-between;
 }
@@ -117,7 +117,7 @@
 #lamode {
     width: 206px;
     text-align: justify;
-    outline: 2px dotted red;
+    outline: 1px dotted red;
 }
 
 #lamodeimg {
@@ -130,13 +130,18 @@
     padding-left: 5.5px;
     padding-bottom: 40px;
     width: 94%;
-    font-size: 10px;
+    font-size: 10.1px;
 }
 
-#lamode div:nth-of-type(4) {
+#lamode div:nth-of-type(4) span:first-of-type {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+}
+
+#lamode div:nth-of-type(4) span:nth-of-type(2) {
+    display: flex;
+    justify-content: space-evenly;
+    width: 129px;
 }
 
 #lamode div:nth-of-type(4) img {
@@ -146,16 +151,30 @@
 
 .button {
     color: white;
+    background-color: green;
+    width: 40px;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px 5px;
 }
 
 #contacts {
     width: 206px;
+    text-align: justify;
 }
 
 #contactsimg {
-    width: inherit;
-    margin-bottom: 8px;
-    float: left;
+    width: 206px;
+}
+
+#contacts p {
+    padding-top: 3px;
+    padding-right: 5.5px;
+    padding-left: 5.5px;
+    padding-bottom: 40px;
+    width: 94%;
+    font-size: 10.1px;
 }
 
 #sixteen {
