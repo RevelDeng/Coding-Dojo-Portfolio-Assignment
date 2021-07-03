@@ -120,7 +120,6 @@
     width: 206px;
     text-align: justify;
     outline: 1px dotted red;
-    /* max-height: 360px; */
 }
 
 #lamodeimg {
@@ -131,9 +130,14 @@
     padding-top: 3px;
     padding-right: 5.5px;
     padding-left: 5.5px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
     width: 94%;
     font-size: 10.1px;
+}
+
+#lamode div:nth-of-type(4) {
+    outline: 1px dotted red;
+    text-align: center;
 }
 
 #lamode div:nth-of-type(4) span:first-of-type {
@@ -152,15 +156,19 @@
     margin-top: 5px;
 }
 
+#lamode div:nth-of-type(4) {
+    outline: 1px dotted red;
+}
+
 .button {
     color: white;
     background-color: green;
     width: 40px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     border-radius: 5px;
     font-size: 10px;
-    padding: 3px 3px;
+    padding: 3px;
     text-align: center;
     border: 1px solid black;
     display: inline-block;
