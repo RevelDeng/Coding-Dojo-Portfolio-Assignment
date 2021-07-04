@@ -47,7 +47,6 @@
 #maintop {
     margin: auto;
     width: 650px;
-    outline: 1px dotted red;
     display: flex;
     justify-content: space-between;
 }
@@ -67,6 +66,7 @@
     font-size: 12px;
     font-weight: bold;
     background: linear-gradient(0deg, rgb(204, 204, 204) 0%, rgba(136,136,136,1) 50%, rgb(204, 204, 204) 100%);
+    outline: 1px dotted red;
 }
 
 .content {
@@ -81,7 +81,6 @@
 #about .content {
     height: 162px;
     font-size: 11px;
-    /* outline: 1px dotted red; */
 }
 
 #about p:first-of-type {
@@ -111,7 +110,6 @@
     margin-top: 0px;
     width: 650px;
     height: 360px;
-    outline: 1px dotted red;
     display: flex;
     justify-content: space-between;
 }
@@ -119,7 +117,6 @@
 #lamode {
     width: 206px;
     text-align: justify;
-    outline: 1px dotted red;
 }
 
 #lamodeimg {
@@ -127,7 +124,7 @@
 }
 
 #lamode p {
-    padding-top: 3px;
+    padding-top: 1px;
     padding-right: 5.5px;
     padding-left: 5.5px;
     padding-bottom: 30px;
@@ -136,7 +133,6 @@
 }
 
 #lamode div:nth-of-type(4) {
-    outline: 1px dotted red;
     text-align: center;
 }
 
@@ -154,10 +150,6 @@
 #lamode div:nth-of-type(4) img {
     width: 25px;
     margin-top: 5px;
-}
-
-#lamode div:nth-of-type(4) {
-    outline: 1px dotted red;
 }
 
 .button {
@@ -184,20 +176,35 @@
 }
 
 #contacts p {
-    padding-top: 3px;
+    padding-top: 1px;
+    padding-right: 5.5px;
+    padding-left: 5.5px;
+    padding-bottom: 19px;
+    width: 94%;
+    font-size: 10.1px;
+}
+
+#contacts div:nth-of-type(4) img {
+    width: 25px;
+    margin-top: 5px;
+}
+
+#sixteen {
+    width: 206px;
+    text-align: justify;
+}
+
+#sixtimg {
+    width: 206px;
+}
+
+#sixteen p {
+    padding-top: 1px;
     padding-right: 5.5px;
     padding-left: 5.5px;
     padding-bottom: 40px;
     width: 94%;
     font-size: 10.1px;
-}
-
-#sixteen {
-    width: 206px;
-}
-
-#sixtimg {
-    width: inherit;
 }
 
 #footer {
